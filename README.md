@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://i.postimg.cc/yxsmF9Wf/screenshot.png)
+![screenshot](https://i.postimg.cc/R0PhPHPs/screenshot.png)
 
 ### Links
 
