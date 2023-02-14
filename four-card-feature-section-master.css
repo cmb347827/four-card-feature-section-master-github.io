@@ -1,0 +1,60 @@
+*, ::before, ::after {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  font-family: 15px "Poppins", sans-serif; }
+
+h1 {
+  color: DodgerBlue4;
+  color: #4c4e61; }
+
+h1:nth-of-type(1) {
+  font-weight: 200; }
+
+h1:nth-of-type(2) {
+  font-weight: 600; }
+
+main {
+  overflow: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center; }
+  main .container {
+    width: 375px; }
+    main .container p {
+      color: Gray77;
+      color: #b8b8b8; }
+    main .container .border, main .container .box, main .container .row > .outer > .box, main .container .row > .outer .box:nth-child(3), main .container .row > .outer > .inner .box:nth-of-type(1), main .container .row > .outer > .inner .box:nth-of-type(2) {
+      border-top: 3px solid #000; }
+    main .container .box, main .container .row > .outer > .box, main .container .row > .outer .box:nth-child(3), main .container .row > .outer > .inner .box:nth-of-type(1), main .container .row > .outer > .inner .box:nth-of-type(2) {
+      width: 360px;
+      height: 250px; }
+    main .container .row > .outer > .box, main .container .row > .outer > .box:nth-child(3), main .container .row > .outer > .inner .row > .outer > .box:nth-of-type(1), main .container .row > .outer > .inner .row > .outer > .box:nth-of-type(2) {
+      border-color: #45d3d3;
+      border-color: Aqua; }
+    main .container .row > .outer .box:nth-child(3), main .container .row > .outer > .inner .box:nth-child(3):nth-of-type(1), main .container .row > .outer > .inner .box:nth-child(3):nth-of-type(2) {
+      border-color: #549ef2;
+      border-color: "Celtic Blue"; }
+    main .container .row > .outer > .inner .box:nth-of-type(1) {
+      border-color: #ea5353;
+      border-color: "Alizarin crimson"; }
+    main .container .row > .outer > .inner .box:nth-of-type(2) {
+      border-color: #fcaf4a;
+      border-color: "Carrot Orange"; }
+  @media screen and (min-width: 1440px) {
+    main .container {
+      width: 1440px; }
+      main .container .box, main .container .row > .outer > .box, main .container .row > .outer .box:nth-child(3), main .container .row > .outer > .inner .box:nth-of-type(1), main .container .row > .outer > .inner .box:nth-of-type(2) {
+        width: 375px; } }
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center; }
+footer .attribution a {
+  color: #3e52a3; }
+
+/*# sourceMappingURL=four-card-feature-section-master.css.map */
